@@ -1,0 +1,161 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "JonSkeet.MiscUtil/0.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net35/MiscUtil.dll": {}
+        },
+        "runtime": {
+          "lib/net35/MiscUtil.dll": {}
+        }
+      },
+      "Mono.Posix/4.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Mono.Posix.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Mono.Posix.dll": {}
+        }
+      },
+      "BitTorrent/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "JonSkeet.MiscUtil": "0.2.0"
+        },
+        "compile": {
+          "bin/placeholder/BitTorrent.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BitTorrent.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "JonSkeet.MiscUtil/0.2.0": {
+      "sha512": "eKBBJzfVay4k1sQel05N1NyzmglO3TEhQ1K9nSqXxiVcpAXFF4y5sNFJQTxhQ4ZoM5+O0x0EasitbGKDL63yNA==",
+      "type": "package",
+      "path": "jonskeet.miscutil/0.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "jonskeet.miscutil.0.2.0.nupkg.sha512",
+        "jonskeet.miscutil.nuspec",
+        "lib/net35/MiscUtil.dll",
+        "lib/net35/MiscUtil.xml"
+      ]
+    },
+    "Mono.Posix/4.0.0": {
+      "sha512": "sAO6UFMLKU1ykPLaGBUmR+yNPLQhBO77EUblN2eydYrF6GPkvurRbHLDP8ImvZ8j2IOITOsFGnUIPXsDnyEUPQ==",
+      "type": "package",
+      "path": "mono.posix/4.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Mono.Posix.dll",
+        "mono.posix.4.0.0.nupkg.sha512",
+        "mono.posix.nuspec"
+      ]
+    },
+    "BitTorrent/1.0.0": {
+      "type": "project",
+      "path": "../BitTorrent/BitTorrent.csproj",
+      "msbuildProject": "../BitTorrent/BitTorrent.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "BitTorrent >= 1.0.0",
+      "Mono.Posix >= 4.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/abdullo/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/abdullo/Рабочий стол/Torrent/ConsoleApp1/Client/Client.csproj",
+      "projectName": "Client",
+      "projectPath": "/home/abdullo/Рабочий стол/Torrent/ConsoleApp1/Client/Client.csproj",
+      "packagesPath": "/home/abdullo/.nuget/packages/",
+      "outputPath": "/home/abdullo/Рабочий стол/Torrent/ConsoleApp1/Client/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/abdullo/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "/home/abdullo/Рабочий стол/Torrent/ConsoleApp1/BitTorrent/BitTorrent.csproj": {
+              "projectPath": "/home/abdullo/Рабочий стол/Torrent/ConsoleApp1/BitTorrent/BitTorrent.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "Mono.Posix": {
+            "target": "Package",
+            "version": "[4.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'JonSkeet.MiscUtil 0.2.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "JonSkeet.MiscUtil",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Mono.Posix 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Mono.Posix",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

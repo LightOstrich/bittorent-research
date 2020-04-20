@@ -1,0 +1,70 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Client/1.0.0": {
+        "dependencies": {
+          "BitTorrent": "1.0.0",
+          "Mono.Posix": "4.0.0"
+        },
+        "runtime": {
+          "Client.dll": {}
+        }
+      },
+      "JonSkeet.MiscUtil/0.2.0": {
+        "runtime": {
+          "lib/net35/MiscUtil.dll": {
+            "assemblyVersion": "0.2.0.0",
+            "fileVersion": "0.2.0.0"
+          }
+        }
+      },
+      "Mono.Posix/4.0.0": {
+        "runtime": {
+          "lib/net40/Mono.Posix.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "BitTorrent/1.0.0": {
+        "dependencies": {
+          "JonSkeet.MiscUtil": "0.2.0"
+        },
+        "runtime": {
+          "BitTorrent.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Client/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "JonSkeet.MiscUtil/0.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eKBBJzfVay4k1sQel05N1NyzmglO3TEhQ1K9nSqXxiVcpAXFF4y5sNFJQTxhQ4ZoM5+O0x0EasitbGKDL63yNA==",
+      "path": "jonskeet.miscutil/0.2.0",
+      "hashPath": "jonskeet.miscutil.0.2.0.nupkg.sha512"
+    },
+    "Mono.Posix/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sAO6UFMLKU1ykPLaGBUmR+yNPLQhBO77EUblN2eydYrF6GPkvurRbHLDP8ImvZ8j2IOITOsFGnUIPXsDnyEUPQ==",
+      "path": "mono.posix/4.0.0",
+      "hashPath": "mono.posix.4.0.0.nupkg.sha512"
+    },
+    "BitTorrent/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

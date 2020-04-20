@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "dgSpecHash": "1lqNU4x41/LW2dDkXzJ5vaLzbhoBkJfFhku3VSE3S8qD2b8jiPmDLz5CEBbkCNAU+xXoPB2zHL1kT/L8kbnBRQ==",
+  "success": true,
+  "projectFilePath": "/home/abdullo/Рабочий стол/Torrent/ConsoleApp1/Client/Client.csproj",
+  "expectedPackageFiles": [
+    "/home/abdullo/.nuget/packages/jonskeet.miscutil/0.2.0/jonskeet.miscutil.0.2.0.nupkg.sha512",
+    "/home/abdullo/.nuget/packages/mono.posix/4.0.0/mono.posix.4.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'JonSkeet.MiscUtil 0.2.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "JonSkeet.MiscUtil",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Mono.Posix 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Mono.Posix",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/home/abdullo/Рабочий стол/Torrent/ConsoleApp1/Client/Client.csproj",
+    "projectName": "Client",
+    "projectPath": "/home/abdullo/Рабочий стол/Torrent/ConsoleApp1/Client/Client.csproj",
+    "outputPath": "/home/abdullo/Рабочий стол/Torrent/ConsoleApp1/Client/obj/",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp3.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "projectReferences": {
+          "/home/abdullo/Рабочий стол/Torrent/ConsoleApp1/BitTorrent/BitTorrent.csproj": {
+            "projectPath": "/home/abdullo/Рабочий стол/Torrent/ConsoleApp1/BitTorrent/BitTorrent.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.1": {
+      "dependencies": {
+        "Mono.Posix": {
+          "target": "Package",
+          "version": "[4.0.0, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
+    }
+  }
+}

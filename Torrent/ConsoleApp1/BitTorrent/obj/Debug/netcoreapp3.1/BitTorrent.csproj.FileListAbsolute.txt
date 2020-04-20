@@ -1,0 +1,9 @@
+/home/abdullo/Рабочий стол/Torrent/ConsoleApp1/BitTorrent/bin/Debug/netcoreapp3.1/BitTorrent.deps.json
+/home/abdullo/Рабочий стол/Torrent/ConsoleApp1/BitTorrent/bin/Debug/netcoreapp3.1/BitTorrent.dll
+/home/abdullo/Рабочий стол/Torrent/ConsoleApp1/BitTorrent/bin/Debug/netcoreapp3.1/BitTorrent.pdb
+/home/abdullo/Рабочий стол/Torrent/ConsoleApp1/BitTorrent/obj/Debug/netcoreapp3.1/BitTorrent.csprojAssemblyReference.cache
+/home/abdullo/Рабочий стол/Torrent/ConsoleApp1/BitTorrent/obj/Debug/netcoreapp3.1/BitTorrent.csproj.CoreCompileInputs.cache
+/home/abdullo/Рабочий стол/Torrent/ConsoleApp1/BitTorrent/obj/Debug/netcoreapp3.1/BitTorrent.AssemblyInfoInputs.cache
+/home/abdullo/Рабочий стол/Torrent/ConsoleApp1/BitTorrent/obj/Debug/netcoreapp3.1/BitTorrent.AssemblyInfo.cs
+/home/abdullo/Рабочий стол/Torrent/ConsoleApp1/BitTorrent/obj/Debug/netcoreapp3.1/BitTorrent.dll
+/home/abdullo/Рабочий стол/Torrent/ConsoleApp1/BitTorrent/obj/Debug/netcoreapp3.1/BitTorrent.pdb

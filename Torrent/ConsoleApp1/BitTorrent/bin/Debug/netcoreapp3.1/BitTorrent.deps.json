@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "BitTorrent/1.0.0": {
+        "dependencies": {
+          "JonSkeet.MiscUtil": "0.2.0"
+        },
+        "runtime": {
+          "BitTorrent.dll": {}
+        }
+      },
+      "JonSkeet.MiscUtil/0.2.0": {
+        "runtime": {
+          "lib/net35/MiscUtil.dll": {
+            "assemblyVersion": "0.2.0.0",
+            "fileVersion": "0.2.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BitTorrent/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "JonSkeet.MiscUtil/0.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eKBBJzfVay4k1sQel05N1NyzmglO3TEhQ1K9nSqXxiVcpAXFF4y5sNFJQTxhQ4ZoM5+O0x0EasitbGKDL63yNA==",
+      "path": "jonskeet.miscutil/0.2.0",
+      "hashPath": "jonskeet.miscutil.0.2.0.nupkg.sha512"
+    }
+  }
+}
